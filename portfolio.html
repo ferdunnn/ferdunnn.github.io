@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web profile</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body,h1,h2,h3,h4,h5,h6 {
+            font-family: "Raleway", sans-serif
+        }
+    </style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+ 
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+        <div class="w3-container">
+            <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey"
+                title="close menu">
+                <i class="fa fa-remove"></i>
+            </a>
+            <img src="img/ferdy.jpeg" style="width:45%;" class="w3-round"><br><br>
+            <h4><b>MY PROFILE</b></h4>
+            
+        </div>
+        <div class="w3-bar-block">
+            <a href="#profile" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i
+                    class="fa fa-th-large fa-fw w3-margin-right"></i>GALLERY</a>
+            <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+                    class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a>
+            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i
+                    class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+        </div>
+    </nav>
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay">
+    </div>
+    
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+        <!-- Header -->
+        <header id="profile"style="background-color: pink">
+            <a href="#"><img src="img/ferdy.jpeg" style="width:65px;"
+                    class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+            <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i
+                    class="fa fa-bars"></i></span>
+            <div class="w3-container">
+                <h1><b>Gallery</b></h1>
+            </div>
+        </header>
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="img/1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Love</b></p>
+                    <p>Cintailah dirimu sendiri dengan tampil yang apa adanya.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <img src="img/3.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>Trust</b></p>
+                    <p>Jangan terlalu mudah percaya dengan seseorang, karena kepercayaan susah untuk dibangun.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container">
+                <img src="img/2.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+                <div class="w3-container w3-white">
+                    <p><b>compactness</b></p>
+                    <p>Tidak ada stabilitas tanpa solidaritas dan tidak ada solidaritas tanpa stabilitas.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+    <!-- Header -->
+    <header id="about"style="background-color: pink">
+        <a href="#"><img src="img/ferdy.jpeg" style="width:65px;"
+                class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+        <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i
+                class="fa fa-bars"></i></span>
+        <div class="w3-container">
+            <h1><b>About</b></h1>
+        </div>
+    </header>
+
+    <section id="about">
+         <!-- First Photo Grid-->
+         <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <div class="w3-container w3-white">
+                    <p><b>Hello...</b></p>
+                    <p>Nama saya Ferdian Hidayat Santoso kamu bisa panggil saya ferdun asal saya dari Bogor dan saya salah satu mahasiswa Universitas Gunadarma jurusan Teknik Komputer.</p>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <div class="w3-container w3-white">
+                    <p><b>Hobi</b></p>
+                    <p>Futsal</p>
+                    <p><b>Makanan Favorite</b></p>
+                    <p>Seblak</p>
+                    <p><b>Hal yang paling saya sukai</b></p>
+                    <p>DIA</p>
+                </div>
+            </div>
+      </section>
+    </div>
+</div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+    <!-- Header -->
+    <header id="contact"style="background-color: pink">
+        <a href="#"><img src="img/ferdy.jpeg" style="width:65px;"
+                class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+        <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i
+                class="fa fa-bars"></i></span>
+        <div class="w3-container">
+            <h1><b>Contact</b></h1>
+        </div>
+    </header>
+    <!-- First Photo Grid-->
+    <div class="w3-row-padding">
+        <div class="w3-third w3-container w3-margin-bottom">
+        <a href="https://www.facebook.com/ferdian.hidayat.33">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        </a>
+            <div class="w3-container w3-white">
+                <p><b>Facebook</b></p>
+                <p>Ferdian Hidayat</p>
+            </div>
+        </div>
+        <div class="w3-third w3-container w3-margin-bottom">
+        <a href="https://www.instagram.com/ferdy.an0/">
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+        </a>
+            <div class="w3-container w3-white">
+                <p><b>Instagram</b></p>
+                <p>ferdy.an0</p>
+            </div>
+        </div>
+        <div class="w3-third w3-container">
+        <a href="http://wa.me/089639533971">
+            <i class="fa fa-whatsapp w3-hover-opacity"></i>
+        </a>    
+            <div class="w3-container w3-white">
+                <p><b>whatsapp</b></p>
+                <p>089639533971</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
